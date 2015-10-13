@@ -5,7 +5,7 @@
 	<key>cocos2dUpdateIgnoredVersions</key>
 	<array/>
 	<key>defaultOrientation</key>
-	<integer>0</integer>
+	<integer>1</integer>
 	<key>designTarget</key>
 	<integer>0</integer>
 	<key>deviceOrientationLandscapeLeft</key>
@@ -161,6 +161,16 @@
 			<integer>2</integer>
 			<key>tabletScale</key>
 			<integer>1</integer>
+		</dict>
+		<key>spacePack/Space.png</key>
+		<dict>
+			<key>scaleFrom</key>
+			<integer>1</integer>
+		</dict>
+		<key>spacePack/planet.png</key>
+		<dict>
+			<key>scaleFrom</key>
+			<integer>4</integer>
 		</dict>
 	</dict>
 	<key>versionStr</key>
