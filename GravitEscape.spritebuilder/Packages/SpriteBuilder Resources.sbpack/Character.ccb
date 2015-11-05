@@ -10,7 +10,7 @@
 		<false/>
 	</dict>
 	<key>UUID</key>
-	<integer>2</integer>
+	<integer>1</integer>
 	<key>centeredOrigin</key>
 	<false/>
 	<key>currentResolution</key>
@@ -36,271 +36,13 @@
 	<key>nodeGraph</key>
 	<dict>
 		<key>baseClass</key>
-		<string>CCNode</string>
+		<string>CCSprite</string>
 		<key>children</key>
-		<array>
-			<dict>
-				<key>UUID</key>
-				<integer>1</integer>
-				<key>baseClass</key>
-				<string>CCSprite</string>
-				<key>children</key>
-				<array/>
-				<key>customClass</key>
-				<string></string>
-				<key>displayName</key>
-				<string>CCSprite</string>
-				<key>memberVarAssignmentName</key>
-				<string></string>
-				<key>memberVarAssignmentType</key>
-				<integer>1</integer>
-				<key>physicsBody</key>
-				<dict>
-					<key>affectedByGravity</key>
-					<true/>
-					<key>allowsRotation</key>
-					<true/>
-					<key>bodyShape</key>
-					<integer>0</integer>
-					<key>collisionCategories</key>
-					<array/>
-					<key>collisionMask</key>
-					<array/>
-					<key>collisionType</key>
-					<string></string>
-					<key>cornerRadius</key>
-					<real>0.0</real>
-					<key>density</key>
-					<real>1</real>
-					<key>dynamic</key>
-					<true/>
-					<key>elasticity</key>
-					<real>0.30000001192092896</real>
-					<key>friction</key>
-					<real>0.30000001192092896</real>
-					<key>points</key>
-					<array>
-						<array>
-							<real>0.04296875</real>
-							<real>31.66015625</real>
-						</array>
-						<array>
-							<real>13.89453125</real>
-							<real>57.4921875</real>
-						</array>
-						<array>
-							<real>13.28515625</real>
-							<real>92.7578125</real>
-						</array>
-						<array>
-							<real>19.10546875</real>
-							<real>124.41015625</real>
-						</array>
-						<array>
-							<real>67.82421875</real>
-							<real>125.46484375</real>
-						</array>
-						<array>
-							<real>74.9921875</real>
-							<real>91.765625</real>
-						</array>
-						<array>
-							<real>74.60546875</real>
-							<real>58.6796875</real>
-						</array>
-						<array>
-							<real>85</real>
-							<real>0.0</real>
-						</array>
-						<array>
-							<real>57.84375</real>
-							<real>20.1640625</real>
-						</array>
-						<array>
-							<real>42.3828125</real>
-							<real>-0.51171875</real>
-						</array>
-						<array>
-							<real>25.40234375</real>
-							<real>23.8046875</real>
-						</array>
-						<array>
-							<real>5.296875</real>
-							<real>0.046875</real>
-						</array>
-					</array>
-					<key>polygons</key>
-					<array>
-						<array>
-							<array>
-								<real>13.89453125</real>
-								<real>57.4921875</real>
-							</array>
-							<array>
-								<real>0.04296875</real>
-								<real>31.66015625</real>
-							</array>
-							<array>
-								<real>5.296875</real>
-								<real>0.046875</real>
-							</array>
-							<array>
-								<real>25.40234375</real>
-								<real>23.8046875</real>
-							</array>
-						</array>
-						<array>
-							<array>
-								<real>57.84375</real>
-								<real>20.1640625</real>
-							</array>
-							<array>
-								<real>85</real>
-								<real>0.0</real>
-							</array>
-							<array>
-								<real>74.60546875</real>
-								<real>58.6796875</real>
-							</array>
-						</array>
-						<array>
-							<array>
-								<real>74.60546875</real>
-								<real>58.6796875</real>
-							</array>
-							<array>
-								<real>74.9921875</real>
-								<real>91.765625</real>
-							</array>
-							<array>
-								<real>67.82421875</real>
-								<real>125.46484375</real>
-							</array>
-							<array>
-								<real>19.10546875</real>
-								<real>124.41015625</real>
-							</array>
-							<array>
-								<real>13.28515625</real>
-								<real>92.7578125</real>
-							</array>
-							<array>
-								<real>13.89453125</real>
-								<real>57.4921875</real>
-							</array>
-							<array>
-								<real>25.40234375</real>
-								<real>23.8046875</real>
-							</array>
-							<array>
-								<real>42.3828125</real>
-								<real>-0.51171875</real>
-							</array>
-							<array>
-								<real>57.84375</real>
-								<real>20.1640625</real>
-							</array>
-						</array>
-					</array>
-				</dict>
-				<key>properties</key>
-				<array>
-					<dict>
-						<key>name</key>
-						<string>name</string>
-						<key>type</key>
-						<string>StringSimple</string>
-						<key>value</key>
-						<string></string>
-					</dict>
-					<dict>
-						<key>name</key>
-						<string>position</string>
-						<key>type</key>
-						<string>Position</string>
-						<key>value</key>
-						<array>
-							<real>0.0</real>
-							<real>0.0</real>
-							<integer>0</integer>
-							<integer>0</integer>
-							<integer>0</integer>
-						</array>
-					</dict>
-					<dict>
-						<key>name</key>
-						<string>anchorPoint</string>
-						<key>type</key>
-						<string>Point</string>
-						<key>value</key>
-						<array>
-							<real>0.5</real>
-							<real>0.5</real>
-						</array>
-					</dict>
-					<dict>
-						<key>name</key>
-						<string>scale</string>
-						<key>type</key>
-						<string>ScaleLock</string>
-						<key>value</key>
-						<array>
-							<real>1</real>
-							<real>1</real>
-							<false/>
-							<integer>0</integer>
-						</array>
-					</dict>
-					<dict>
-						<key>name</key>
-						<string>spriteFrame</string>
-						<key>type</key>
-						<string>SpriteFrame</string>
-						<key>value</key>
-						<array>
-							<string></string>
-							<string>spacePack/rocketship.png</string>
-						</array>
-					</dict>
-					<dict>
-						<key>name</key>
-						<string>normalMapSpriteFrame</string>
-						<key>type</key>
-						<string>SpriteFrame</string>
-						<key>value</key>
-						<array>
-							<string></string>
-							<string></string>
-						</array>
-					</dict>
-					<dict>
-						<key>name</key>
-						<string>color</string>
-						<key>type</key>
-						<string>Color3</string>
-						<key>value</key>
-						<array>
-							<real>1</real>
-							<real>1</real>
-							<real>1</real>
-							<real>1</real>
-						</array>
-					</dict>
-					<dict>
-						<key>name</key>
-						<string>effects</string>
-						<key>type</key>
-						<string>EffectControl</string>
-						<key>value</key>
-						<array/>
-					</dict>
-				</array>
-			</dict>
-		</array>
+		<array/>
 		<key>customClass</key>
 		<string>Character</string>
 		<key>displayName</key>
-		<string>CCNode</string>
+		<string>CCSprite</string>
 		<key>memberVarAssignmentName</key>
 		<string></string>
 		<key>memberVarAssignmentType</key>
@@ -308,7 +50,7 @@
 		<key>physicsBody</key>
 		<dict>
 			<key>affectedByGravity</key>
-			<true/>
+			<false/>
 			<key>allowsRotation</key>
 			<true/>
 			<key>bodyShape</key>
@@ -320,7 +62,7 @@
 			<key>collisionType</key>
 			<string>hero</string>
 			<key>cornerRadius</key>
-			<real>15</real>
+			<real>0.0</real>
 			<key>density</key>
 			<real>1</real>
 			<key>dynamic</key>
@@ -332,40 +74,298 @@
 			<key>points</key>
 			<array>
 				<array>
-					<real>0.0</real>
-					<real>0.0</real>
+					<real>14.09375</real>
+					<real>39.421875</real>
 				</array>
 				<array>
-					<real>0.0</real>
-					<real>32</real>
+					<real>2.32421875</real>
+					<real>19.01171875</real>
 				</array>
 				<array>
-					<real>32</real>
-					<real>32</real>
+					<real>2.32421875</real>
+					<real>35.640625</real>
 				</array>
 				<array>
-					<real>32</real>
-					<real>0.0</real>
+					<real>8.92578125</real>
+					<real>51.234375</real>
+				</array>
+				<array>
+					<real>14.1328125</real>
+					<real>68.12890625</real>
+				</array>
+				<array>
+					<real>17.609375</real>
+					<real>98.69921875</real>
+				</array>
+				<array>
+					<real>19.99609375</real>
+					<real>122.27734375</real>
+				</array>
+				<array>
+					<real>32.1796875</real>
+					<real>133</real>
+				</array>
+				<array>
+					<real>44.8125</real>
+					<real>144.76953125</real>
+				</array>
+				<array>
+					<real>56.88671875</real>
+					<real>133.95703125</real>
+				</array>
+				<array>
+					<real>65.61328125</real>
+					<real>122.10546875</real>
+				</array>
+				<array>
+					<real>70.4375</real>
+					<real>106.0703125</real>
+				</array>
+				<array>
+					<real>71.4765625</real>
+					<real>94.0390625</real>
+				</array>
+				<array>
+					<real>71.171875</real>
+					<real>78.80859375</real>
+				</array>
+				<array>
+					<real>71.171875</real>
+					<real>55.96484375</real>
+				</array>
+				<array>
+					<real>82.51171875</real>
+					<real>44.06640625</real>
+				</array>
+				<array>
+					<real>84.55078125</real>
+					<real>31.03515625</real>
+				</array>
+				<array>
+					<real>80.8984375</real>
+					<real>13.09765625</real>
+				</array>
+				<array>
+					<real>75.03515625</real>
+					<real>30.078125</real>
+				</array>
+				<array>
+					<real>66.140625</real>
+					<real>37.2890625</real>
+				</array>
+				<array>
+					<real>60.1953125</real>
+					<real>23.3515625</real>
+				</array>
+				<array>
+					<real>49.46484375</real>
+					<real>23.3515625</real>
+				</array>
+				<array>
+					<real>43.6015625</real>
+					<real>1.59375</real>
+				</array>
+				<array>
+					<real>33.3359375</real>
+					<real>25.77734375</real>
+				</array>
+				<array>
+					<real>22.3046875</real>
+					<real>26.77734375</real>
 				</array>
 			</array>
 			<key>polygons</key>
 			<array>
 				<array>
 					<array>
-						<real>32</real>
-						<real>0.0</real>
+						<real>33.3359375</real>
+						<real>25.77734375</real>
 					</array>
 					<array>
-						<real>32</real>
-						<real>32</real>
+						<real>43.6015625</real>
+						<real>1.59375</real>
 					</array>
 					<array>
-						<real>0.0</real>
-						<real>32</real>
+						<real>49.46484375</real>
+						<real>23.3515625</real>
+					</array>
+				</array>
+				<array>
+					<array>
+						<real>49.46484375</real>
+						<real>23.3515625</real>
 					</array>
 					<array>
-						<real>0.0</real>
-						<real>0.0</real>
+						<real>60.1953125</real>
+						<real>23.3515625</real>
+					</array>
+					<array>
+						<real>33.3359375</real>
+						<real>25.77734375</real>
+					</array>
+				</array>
+				<array>
+					<array>
+						<real>75.03515625</real>
+						<real>30.078125</real>
+					</array>
+					<array>
+						<real>80.8984375</real>
+						<real>13.09765625</real>
+					</array>
+					<array>
+						<real>84.55078125</real>
+						<real>31.03515625</real>
+					</array>
+				</array>
+				<array>
+					<array>
+						<real>84.55078125</real>
+						<real>31.03515625</real>
+					</array>
+					<array>
+						<real>82.51171875</real>
+						<real>44.06640625</real>
+					</array>
+					<array>
+						<real>71.171875</real>
+						<real>55.96484375</real>
+					</array>
+					<array>
+						<real>66.140625</real>
+						<real>37.2890625</real>
+					</array>
+					<array>
+						<real>75.03515625</real>
+						<real>30.078125</real>
+					</array>
+				</array>
+				<array>
+					<array>
+						<real>71.171875</real>
+						<real>78.80859375</real>
+					</array>
+					<array>
+						<real>71.4765625</real>
+						<real>94.0390625</real>
+					</array>
+					<array>
+						<real>70.4375</real>
+						<real>106.0703125</real>
+					</array>
+				</array>
+				<array>
+					<array>
+						<real>56.88671875</real>
+						<real>133.95703125</real>
+					</array>
+					<array>
+						<real>44.8125</real>
+						<real>144.76953125</real>
+					</array>
+					<array>
+						<real>32.1796875</real>
+						<real>133</real>
+					</array>
+				</array>
+				<array>
+					<array>
+						<real>32.1796875</real>
+						<real>133</real>
+					</array>
+					<array>
+						<real>19.99609375</real>
+						<real>122.27734375</real>
+					</array>
+					<array>
+						<real>17.609375</real>
+						<real>98.69921875</real>
+					</array>
+				</array>
+				<array>
+					<array>
+						<real>14.09375</real>
+						<real>39.421875</real>
+					</array>
+					<array>
+						<real>14.1328125</real>
+						<real>68.12890625</real>
+					</array>
+					<array>
+						<real>8.92578125</real>
+						<real>51.234375</real>
+					</array>
+				</array>
+				<array>
+					<array>
+						<real>8.92578125</real>
+						<real>51.234375</real>
+					</array>
+					<array>
+						<real>2.32421875</real>
+						<real>35.640625</real>
+					</array>
+					<array>
+						<real>2.32421875</real>
+						<real>19.01171875</real>
+					</array>
+					<array>
+						<real>14.09375</real>
+						<real>39.421875</real>
+					</array>
+				</array>
+				<array>
+					<array>
+						<real>14.09375</real>
+						<real>39.421875</real>
+					</array>
+					<array>
+						<real>22.3046875</real>
+						<real>26.77734375</real>
+					</array>
+					<array>
+						<real>33.3359375</real>
+						<real>25.77734375</real>
+					</array>
+					<array>
+						<real>60.1953125</real>
+						<real>23.3515625</real>
+					</array>
+					<array>
+						<real>66.140625</real>
+						<real>37.2890625</real>
+					</array>
+					<array>
+						<real>71.171875</real>
+						<real>55.96484375</real>
+					</array>
+					<array>
+						<real>71.171875</real>
+						<real>78.80859375</real>
+					</array>
+					<array>
+						<real>70.4375</real>
+						<real>106.0703125</real>
+					</array>
+					<array>
+						<real>65.61328125</real>
+						<real>122.10546875</real>
+					</array>
+					<array>
+						<real>56.88671875</real>
+						<real>133.95703125</real>
+					</array>
+					<array>
+						<real>32.1796875</real>
+						<real>133</real>
+					</array>
+					<array>
+						<real>17.609375</real>
+						<real>98.69921875</real>
+					</array>
+					<array>
+						<real>14.1328125</real>
+						<real>68.12890625</real>
 					</array>
 				</array>
 			</array>
@@ -396,26 +396,13 @@
 			</dict>
 			<dict>
 				<key>name</key>
-				<string>contentSize</string>
-				<key>type</key>
-				<string>Size</string>
-				<key>value</key>
-				<array>
-					<real>0.0</real>
-					<real>0.0</real>
-					<integer>0</integer>
-					<integer>0</integer>
-				</array>
-			</dict>
-			<dict>
-				<key>name</key>
 				<string>anchorPoint</string>
 				<key>type</key>
 				<string>Point</string>
 				<key>value</key>
 				<array>
-					<real>0.0</real>
-					<real>0.0</real>
+					<real>0.5</real>
+					<real>0.5</real>
 				</array>
 			</dict>
 			<dict>
@@ -430,6 +417,49 @@
 					<false/>
 					<integer>0</integer>
 				</array>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>spriteFrame</string>
+				<key>type</key>
+				<string>SpriteFrame</string>
+				<key>value</key>
+				<array>
+					<string></string>
+					<string>spacePack/rocketship.png</string>
+				</array>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>normalMapSpriteFrame</string>
+				<key>type</key>
+				<string>SpriteFrame</string>
+				<key>value</key>
+				<array>
+					<string></string>
+					<string></string>
+				</array>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>color</string>
+				<key>type</key>
+				<string>Color3</string>
+				<key>value</key>
+				<array>
+					<real>1</real>
+					<real>1</real>
+					<real>1</real>
+					<real>1</real>
+				</array>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>effects</string>
+				<key>type</key>
+				<string>EffectControl</string>
+				<key>value</key>
+				<array/>
 			</dict>
 		</array>
 		<key>selected</key>
@@ -510,6 +540,6 @@
 	<key>stageBorder</key>
 	<integer>3</integer>
 	<key>stageColor</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

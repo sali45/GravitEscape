@@ -8,22 +8,26 @@
 
 import UIKit
 
-class Planet: CCNode {
+class Planet: CCSprite {
     
-    let minimumYPosition:CGFloat = 200
-    let maximumYPosition:CGFloat = 380
+    let minimumYPosition:CGFloat = 400
+    let maximumYPosition:CGFloat = 700
     
-    let minimumXPosition:CGFloat = 200
-    let maximumXPosition:CGFloat = 380
+    let minimumXPosition:CGFloat = 50
+    let maximumXPosition:CGFloat = 400
     
-    let minimumRadius:Float = 15
-    let maximumRadius:Float = 50
+    let minimumRadius:Float = 0.05
+    let maximumRadius:Float = 0.1
+    func didLoadFromCCB() {
+        self.physicsBody.sensor = true
+        setRandomArea()
+        setRandomColor()
+    }
     
-    func setRandomPosition() {
+    func setRandomPosition(y:CGFloat) {
         let random:CGFloat = (CGFloat(rand()) / CGFloat(RAND_MAX))
-        let rangeY:CGFloat = maximumYPosition - minimumYPosition
         let rangeX:CGFloat = maximumXPosition - minimumXPosition
-        self.position = CGPoint(x:minimumXPosition + (random * rangeX), y:minimumYPosition + (random * rangeY))
+        self.position = ccp(minimumXPosition + (random * rangeX), y)
     }
     
     func setRandomArea() {
@@ -33,11 +37,9 @@ class Planet: CCNode {
     }
     
     func setRandomColor() {
-        let random = (Float(rand()) / Float(RAND_MAX))
-        self.color = CCColor.init(red: 1 / random, green: 1 / random, blue: 1 / random)
-    }
-    
-    func didLoadFromCCB() {
-        self.physicsBody.sensor = true
+        let random = Float(Int(arc4random_uniform(256)))
+        let random2 = Float(Int(arc4random_uniform(256)))
+        let random3 = Float(Int(arc4random_uniform(256)))
+        self.color = CCColor(red: random / 255, green: random2 / 255, blue: random3 / 255)
     }
 }

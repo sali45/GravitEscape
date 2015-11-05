@@ -8,9 +8,9 @@
 
 import UIKit
 
-class Character: CCNode {
+class Character: CCSprite {
     func didLoadFromCCB() {
-        self.position = CGPoint(x: 50, y: 50)
+        self.position = CGPoint(x: 150, y: 50)
         self.scale = 0.4
     }
 }
