@@ -4,4 +4,4 @@ GravitEscape is a single player game where the player dodges incoming planets by
 
 ## Screenshots
 
-![image](Screenshots/screenshot1.png)
+![image](https://cloud.githubusercontent.com/assets/10213689/12004869/16b1d510-ab4c-11e5-98de-57da7c890a8b.png)
